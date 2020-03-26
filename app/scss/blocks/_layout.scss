@@ -1,0 +1,47 @@
+.layout {
+    color:$black;
+}
+
+.layout__header {
+    text-align: center;
+}
+
+.layout__type {
+    display: flex;
+}
+.layout__type__item {
+    position: relative;
+    flex:0 1 50%;
+    padding-left: 80px;;
+}
+.layout__type__icon {
+    position: absolute;
+    right: calc(100% - 65px);
+    top:5px;
+
+    &--phone {
+        right: calc(100% - 80px);
+    }
+    
+    span {
+        display: inline-block;
+
+    }
+
+    span::before{
+        font-size: 60px;
+        color:$green;
+    }
+
+   
+
+}
+.layout__type__title {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.layout__type__text {
+}
+

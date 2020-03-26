@@ -1,0 +1,42 @@
+.skills {
+    position: relative;
+    background: url('../img/bg/skills.jpg') fixed no-repeat center;
+    background-size: cover;
+
+    
+}
+
+.skills__list {
+    display: flex;
+    justify-content: space-between
+}
+
+.skills__circle {
+    position: relative;
+    display: inline-block;
+
+    strong{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        font-size: 30px;
+
+
+        transform: translate3d(-50%,-50%,0);
+    }
+}
+
+.skills__item {
+
+    &__circle {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 18px;
+        font-size: 1.125rem;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
