@@ -1,0 +1,32 @@
+.why-me {
+    border-bottom: 1px solid rgba(204,204,204,0.2);
+    background: #f8f8f8;
+    border-top: 1px solid rgba(204,204,204,0.2);
+    color:$black;
+}
+
+.why-me__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.why-me__item {
+    text-align: center;
+}
+
+.why-me__icon {
+
+    span {
+        color: $green;
+        font-size: 50px;
+    }
+}
+
+.why-me__title {
+    margin-top: 20px;
+
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+}

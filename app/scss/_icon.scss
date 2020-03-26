@@ -26,6 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-skype:before {
+  content: "\e91a";
+}
 .icon-accept:before {
   content: "\e900";
 }
