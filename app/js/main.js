@@ -1,4 +1,6 @@
 $(function () {
+
+    //circle progress
     const skills = $('.skills .skills__list');
     const skillsOffset = skills.offset();
     let IsSkillAnimate = false;
@@ -10,5 +12,11 @@ $(function () {
         }
 
     })
+
+    //jquery form styler
+    $('input').styler();
+
+
+
 
 })

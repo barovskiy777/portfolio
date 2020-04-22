@@ -108,3 +108,46 @@ section {
         background: rgba(0,0,0,.7);
     }
 }
+
+input {
+    padding: 8px 15px;
+    margin: 0 0 20px;
+    
+    line-height: 1.43;
+    border: 1px solid #cdcdcd;
+    box-shadow: none;
+    color: #000;
+    border-radius: 3px;
+
+    
+}
+
+input::placeholder,
+textarea::placeholder {
+    color:rgba(192, 191, 191,.6);
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 100
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 -1px #949292;
+}
+
+
+textarea  {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 0 0 20px !important;
+    
+    line-height: 1.43;
+    border: 1px solid #cdcdcd;
+    box-shadow: none;
+    color: #000;
+    border-radius: 3px;
+
+    resize: none;
+}
+

@@ -26,7 +26,9 @@ gulp.task('css', function () {
     return gulp.src([
         'node_modules/normalize.css/normalize.css',
         'node_modules/slick-carousel/slick/slick.css',
+        'node_modules/jquery-form-styler/dist/jquery.formstyler.css',
         'app/libs-outer/circle-progress-bar/circle-progress-bar.css',
+
 
     ])
         .pipe(concat('_libs.scss'))
@@ -48,6 +50,7 @@ gulp.task('js', function () {
     return gulp.src([
         'node_modules/slick-carousel/slick/slick.js',
         'app/libs-outer/circle-progress-bar/circle-progress-bar.js',
+        'node_modules/jquery-form-styler/dist/jquery.formstyler.min.js',
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
